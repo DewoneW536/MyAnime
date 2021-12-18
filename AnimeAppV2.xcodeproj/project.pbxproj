@@ -13,6 +13,7 @@
 		537E6818265A071F00991553 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 537E6817265A071F00991553 /* Preview Assets.xcassets */; };
 		537E6823265A071F00991553 /* AnimeAppV2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537E6822265A071F00991553 /* AnimeAppV2Tests.swift */; };
 		537E682E265A071F00991553 /* AnimeAppV2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537E682D265A071F00991553 /* AnimeAppV2UITests.swift */; };
+		538702B1265B09AC00405154 /* AnimeInfoV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538702B0265B09AC00405154 /* AnimeInfoV2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		537E6829265A071F00991553 /* AnimeAppV2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimeAppV2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		537E682D265A071F00991553 /* AnimeAppV2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeAppV2UITests.swift; sourceTree = "<group>"; };
 		537E682F265A071F00991553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		538702B0265B09AC00405154 /* AnimeInfoV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeInfoV2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				537E6810265A071E00991553 /* AnimeAppV2App.swift */,
 				537E6812265A071E00991553 /* ContentView.swift */,
+				538702B0265B09AC00405154 /* AnimeInfoV2.swift */,
 				537E6814265A071F00991553 /* Assets.xcassets */,
 				537E6819265A071F00991553 /* Info.plist */,
 				537E6816265A071F00991553 /* Preview Content */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				538702B1265B09AC00405154 /* AnimeInfoV2.swift in Sources */,
 				537E6813265A071E00991553 /* ContentView.swift in Sources */,
 				537E6811265A071E00991553 /* AnimeAppV2App.swift in Sources */,
 			);
